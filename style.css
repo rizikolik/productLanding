@@ -1,0 +1,29 @@
+#nav-bar{
+position: fixed;
+top: 0;
+width:100%;
+}
+@media  (max-width: 800px) {
+    #header{
+      background-color: blue;
+    }
+  }
+  #header{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      text-align: center;
+      margin:auto;
+  }
+#form{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-top:5em;
+}
+
